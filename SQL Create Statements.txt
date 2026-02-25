@@ -1,0 +1,73 @@
+CREATE TABLE Users (
+UserID INT IDENTITY(1,1) PRIMARY KEY,
+UserName VARCHAR(50) NOT NULL,
+Password VARCHAR(MAX) NOT NULL,
+Email VARCHAR(250) NOT NULL
+);
+
+CREATE TABLE Courses (
+CourseID INT IDENTITY(1,1) PRIMARY KEY,
+CourseName VARCHAR(50) NOT NULL,
+CourseCode VARCHAR(10) NOT NULL,
+CourseDesc VARCHAR(250)
+);
+
+CREATE TABLE Reviews (
+    ReviewID INT IDENTITY(1,1) PRIMARY KEY,
+    UserID INT NOT NULL,
+    CourseID INT NOT NULL,
+    Rating INT NOT NULL,
+    Comment VARCHAR(250),
+    Workload INT,
+    GroupWork BIT,
+    IsCompleted BIT,
+    GradeAchieved FLOAT,
+    DatePublished DATETIME DEFAULT GETDATE(),
+    DateEditted DATETIME,
+
+    CONSTRAINT FK_Reviews_Users
+        FOREIGN KEY (UserID) REFERENCES Users(UserID),
+
+    CONSTRAINT FK_Reviews_Courses
+        FOREIGN KEY (CourseID) REFERENCES Courses(CourseID)
+);
+
+CREATE TABLE EvalTypes (
+EvalTypeID INT IDENTITY(1,1) PRIMARY KEY,
+EvalTitle VARCHAR(50) NOT NULL,
+KeywordDetails VARCHAR(250)
+);
+
+CREATE TABLE Keywords (
+KeywordID INT IDENTITY(1,1) PRIMARY KEY,
+KeywordTitle VARCHAR(50) NOT NULL,
+KeywordDetails VARCHAR(250)
+);
+
+CREATE TABLE ReviewEvalTypes (
+ReviewID INT NOT NULL,
+EvalTypeID INT NOT NULL,
+
+CONSTRAINT PK_ReviewEvalTypes
+PRIMARY KEY (ReviewID, EvalTypeID),
+
+CONSTRAINT FK_RE_EvalTypes
+FOREIGN KEY (EvalTypeID) REFERENCES EvalTypes(EvalTypeID),
+
+CONSTRAINT FK_RE_Reviews
+FOREIGN KEY (ReviewID) REFERENCES Reviews(ReviewID)
+);
+
+CREATE TABLE ReviewKeywords (
+ReviewID INT NOT NULL,
+KeywordID INT NOT NULL,
+
+CONSTRAINT PK_ReviewKeywords
+PRIMARY KEY (ReviewID, KeywordID),
+
+CONSTRAINT FK_RK_Keywords
+FOREIGN KEY (KeywordID) REFERENCES Keywords(KeywordID),
+
+CONSTRAINT FK_RK_Reviews
+FOREIGN KEY (ReviewID) REFERENCES Reviews(ReviewID)
+);
