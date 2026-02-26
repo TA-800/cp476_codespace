@@ -107,18 +107,18 @@ cd cp476_codespace
 
 
 Backend:
-sqlite3
-.read sql_script.sql (execute SQL)
-.exit
-cd backend
-npm install
-node server.js
+- sqlite3
+- .read sql_script.sql (execute SQL)
+- .exit
+- cd backend
+- npm install
+- node server.js
 
 
 Frontend:
-cd frontend
-npm install
-npm start
+- cd frontend
+- npm install
+- npm start
 
 ---
 
