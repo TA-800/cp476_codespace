@@ -20,7 +20,7 @@ app.get("/", (req, resp) => {
 
 // Get all courses
 app.get("/courses", (req, resp) => {
-    // Pagination, get offset from current page, use page * 10 as row number (since we're returning 10 results at a time) and return the next 10 rows.
+    // Pagination, get current page from query string param, use page * 10 as row number (since we're returning 10 results at a time) and return the next 10 rows.
     let page = Number.parseInt(req.query.page ?? "0");
     // Clamp page between 0 and 7 (because we only have 77 courses, if we're returning 10 per page then 77 // 10 = 7)
     page = page > 7 ? 7 : page < 0 ? 0 : page;
