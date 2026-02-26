@@ -1,0 +1,118 @@
+/*Review form styling*/
+
+.review-form-page h1 {
+  margin-bottom: 10px;
+}
+
+/*form instruction styling*/
+.form-instructions {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+/*form container*/
+.form-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+/*vertical spacing*/
+.form-group {
+  margin-bottom: 20px;
+}
+
+/*line management*/
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+/*styling for inputs*/
+.form-group select,
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*hover active field*/
+.form-group select:focus,
+.form-group input[type="text"]:focus,
+.form-group input[type="number"]:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #4b2e83;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+/*layout for radio and checkbox*/
+.radio-group,
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 5px;
+}
+.radio-group label,
+.checkbox-group label {
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+/*error message styling*/
+.error-message {
+  display: block;
+  color: #d32f2f;
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+.input-error {
+  border-color: #d32f2f !important;
+}
+
+/*submit button styling*/
+.btn-submit {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+/*submit message container*/
+.success-message {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #e8f5e9;
+  border: 1px solid #a5d6a7;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+/*submit message success*/
+.success-message p {
+  font-size: 1.1rem;
+  color: #2e7d32;
+  margin-bottom: 15px;
+}
+
+/*mobile accessibility*/
+@media (max-width: 600px) {
+  .radio-group,
+  .checkbox-group {
+    flex-direction: column;
+  }
+}
