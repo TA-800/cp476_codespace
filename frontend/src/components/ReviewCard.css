@@ -1,0 +1,80 @@
+/*Review card styling*/
+
+/*individual review container*/
+.review-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/*header styling*/
+.review-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/*user name styling*/
+.review-user {
+  font-weight: bold;
+  color: #4b2e83;
+}
+
+/*date styling*/
+.review-date {
+  color: #888;
+  font-size: 0.85rem;
+}
+
+/*ratings container*/
+.review-ratings {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  color: #555;
+  flex-wrap: wrap;
+}
+
+/*tags container*/
+.review-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+/*tags styling*/
+.tag {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+}
+
+/*tags styling*/
+.eval-tag {
+  background-color: #e8e0f0;
+  color: #4b2e83;
+}
+
+/*keyword styling*/
+.keyword-tag {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+/*comment text styling*/
+.review-comment {
+  color: #444;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/*"did not complete" tag*/
+.not-completed-badge {
+  color: #e65100;
+  font-style: italic;
+}
