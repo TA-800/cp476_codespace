@@ -1,0 +1,384 @@
+CourseId: 1
+CourseCode: CP103
+CourseName: Principles of Programming
+CourseDesc: This course is designed for students with little or no programming experience. Introduce non-Computer Science students to basic computer programming techniques. Emphasis is on problem-solving and structured program design methodologies. Programming projects are implemented in a widely used high-level language. Students will learn elementary computer science concepts with emphasis on procedural programming. Topics include control loops, functions, input and output, installing and using packages, basic debugging skill, introduction to GUI programming. You are required to have a personal computer capable of running the Python programming language and the IDLE (Integrated Development Environment). Windows, Mac, and Linux are all appropriate operating systems for this on desktop or laptop machines. Chromebooks are not appropriate.
+
+CourseId: 2
+CourseCode: CP104
+CourseName: Introduction to Programming
+CourseDesc: An introductory course designed to familiarize the student with modern software development techniques. Emphasis is on problem-solving and structured program design methodologies. Programming projects are implemented in a widely used high-level language.
+
+CourseId: 3
+CourseCode: CP164
+CourseName: Data Structures I
+CourseDesc: Introduction to the study of data structures and their applications. Recursion, searching, sorting. Queues, stacks, heaps. Introduction to the analysis of algorithms, big “O” notation.
+
+CourseId: 4
+CourseCode: CP202
+CourseName: Website Design
+CourseDesc: This course provides an in depth understanding of website design and administration, short of server-side programming. Emphasis is on standards, good design practices, accessibility, and tools. By the end of the course students should have the skills to administer a website, deal with security issues, design readable, informative, attractive and accessible web pages that fit current standards, and apply a logical and consistent navigational scheme to an entire website.
+
+CourseId: 5
+CourseCode: CP212
+CourseName: Windows Application Programming
+CourseDesc: This course is designed for students who have a basic understanding of spreadsheets, word processors, and databases as well as introductory programming experience. The course introduces methods to automate repetitive tasks and create user-friendly applications in spreadsheets, word processors, and databases using the powerful macro language, Visual Basic for Applications (VBA). Topics include: a review of programming constructs such as data types, looping, conditional statements, and arrays; the design of graphical interfaces with the typical "look and feel" of Windows software; the design of dialog boxes with controls and eventhandling code that responds to user input; automating tasks; consolidating data; providing userfriendly reports.
+
+CourseId: 6
+CourseCode: CP213
+CourseName: Introduction to Object-Oriented Programming
+CourseDesc: Fundamentals of object-oriented programming, classes, subclasses, inheritance, references, overloading, event-driven and concurrent programming, using modern application programming interface. The language Java will be used.
+
+CourseId: 7
+CourseCode: CP214
+CourseName: Discrete Structures for Computer Science
+CourseDesc: Finite and discrete algebraic structures relating to computers: sets, functions, relations. Machine-oriented logic. Topics include: propositional and predicate calculus, Boolean algebra, combinatorial counting (including Pigeonhole principle, permutations and combinations), recurrence equations, applications of recurrence equations in sorting algorithms, relations (including equivalence relations, partial orders), algorithms to generate permutations and combinations, induction and recursive programs, correctness proofs for both recursive and iterative program constructions, countable and uncountable sets, Cantor’s theorem, introduction to graph theory and graph algorithms.
+
+CourseId: 8
+CourseCode: CP216
+CourseName: Introduction to Microprocessors
+CourseDesc: A comprehensive study of a current commercial microprocessor, its architecture and assembly language. Emphasis on (1) the relationship between architecture, assembly language and system operation, and (2) the relationship between assembly language, high level languages and operating systems.
+
+CourseId: 9
+CourseCode: CP220
+CourseName: Digital Electronics
+CourseDesc: Introduction to digital logic: logic gates, combinational circuit analysis using Boolean algebra and Karnaugh maps, number systems and codes, minimization techniques applied to combinational logic systems; flip-flops, multivibrators, counters and shift registers.
+
+CourseId: 10
+CourseCode: CP221
+CourseName: Analog Electronics I
+CourseDesc: DC and AC circuit theory, complex impedance, resonance, Norton and Thevenin Theorems, semiconductor diodes, bipolar transistors, the use of transistors for the construction of logic gates.
+
+CourseId: 11
+CourseCode: CP264
+CourseName: Data Structures II
+CourseDesc: A continuation of the study of data structures and their applications using C. Linked lists, binary search trees, balanced search trees. Hashing, collision-avoidance strategies. A continuation of basic algorithm analysis.
+
+CourseId: 12
+CourseCode: CP310
+CourseName: Special Topics
+CourseDesc: A detailed examination of a field or topic of interest not covered by the regular program. Irregular course.
+
+CourseId: 13
+CourseCode: CP312
+CourseName: Algorithm Design and Analysis I
+CourseDesc: Analysis of the best, average, and worse case behaviors of algorithms. Algorithmic strategies: brute force algorithms, greedy algorithms, divide-and-conquer, branch and bound, backtracking. Fundamental computing algorithms: O (n log n) sorting, hash table, binary trees, depth- and breadth-first search of graphs.
+
+CourseId: 14
+CourseCode: CP315
+CourseName: Introduction to Scientific Computation
+CourseDesc: An introduction to scientific computation, with substantial use of scientific software, such as Maple and Matlab. Scientific problems and models from different disciplines are considered. Numerical methods introduced in this course include interpolation, curve fitting, solving (systems of) linear and nonlinear equations, eigenvalue problems, integration and solving ordinary and partial differential equations.
+
+CourseId: 15
+CourseCode: CP316
+CourseName: Microprocessor Systems & Interfacing
+CourseDesc: Interfacing a microprocessor or microcontroller with external devices for real-time hardware control. Microcontroller hardware and software in real time applications; serial and parallel IO; timing generation; priority interrupt structures and servicing; bus timing. Interpretation and use of industry documentation and data sheets.
+
+CourseId: 16
+CourseCode: CP317
+CourseName: Software Engineering
+CourseDesc: Discussion of software development activities, including software process models, analysis, design, implementation, testing, project management and advanced topics. Both traditional and object-oriented methods are considered.
+
+CourseId: 17
+CourseCode: CP319
+CourseName: Digital System Design
+CourseDesc: Logic families and interfacing considerations for logic devices, VHDL; implementation techniques for combinational and sequential logic; introduction to finite state machines and design methodologies for synchronous and asynchronous sequential circuits; hazards, cycles and races; operation and interfacing of memory devices.
+
+CourseId: 18
+CourseCode: CP320
+CourseName: Physical Computing: Digital Interaction with the Analog World
+CourseDesc: Design and construction of computational systems that interact with the physical world for applications such as home or experiment automation. Basics of electrical circuits, reading from analog and digital sensors, controlling analog and digital actuators, single board computers such as Arduino or Raspberry PI, analog components including diodes, transistors and operational amplifiers.
+
+CourseId: 19
+CourseCode: CP321
+CourseName: Data Visualization
+CourseDesc: This course will provide participants an overview on how to visualize data to present large data sets in a meaningful way. Rigorous policy analysis must be based on evidence, but once you have gathered the evidence, it can be overwhelming to figure out how to present data in a meaningful way. This course offers instruction how to distill and interpret large amounts of information to highlight the key information. Learn to unlock the power of data through effective data visualization. Explains how to select the appropriate data sets for analysis, transform the data sets into usable formats, and verify that the sets are error-free. Review how to choose the right model for the specific type of analysis project, how to analyze the model, and present the results for decision making. Show how to solve numerous business problems by applying various tools and techniques. Data visualization and visual data mining tools, and real-world success stories using visual data mining.
+
+CourseId: 20
+CourseCode: CP322
+CourseName: Machine Learning
+CourseDesc: With the rise of data science and big data fields, machine learning has gained further recognition as the key driver behind the successful advance of these fields. However, many recent entrants to the field can only utilize the variety of machine learning algorithms as black boxes. This course aims to empower students to effectively use and understand the primary approaches so as to be able to modify them for specific uses. Our focus is less on theory and more on practice. Students engage in hands-on implementation of some of the fundamental algorithms such as predictive modeling and clustering applied to real, open-ended problems.
+
+CourseId: 21
+CourseCode: CP331
+CourseName: Parallel Programming
+CourseDesc: Parallel computers, or supercomputers or high-performance clusters are ubiquitous today in science and engineering. Parallel programming requires inventing new algorithms and programming techniques. This course will cover the fundamental paradigms of parallel programming, with an emphasis on problem solving and actual applications. The parallel programming concepts and algorithms will be illustrated via implementations in OpenMP and MPI (Message Passing Interface), as well as serial farming.
+
+CourseId: 22
+CourseCode: CP340
+CourseName: E-commerce
+CourseDesc: This course deals with the development of the Internet and its impacts on business transactions. The course explains key concepts and trends associated with e-commerce and online business. Topics include the role of the Internet, electronic marketplace, online marketing, web analytics, privacy and security issues and electronic payments.
+
+CourseId: 23
+CourseCode: CP351
+CourseName: Quantum Computing
+CourseDesc: Quantum computing offers the possibility of dramatic advances in computational power compared to the best computers we have today. In addition, novel quantum protocols such as teleportation and quantum cryptography have already been demonstrated. This course provides an introduction to this exciting and cutting-edge field. Topics include an overview of quantum theory, quantum algorithms, teleportation, secure quantum communication, Shor's factoring algorithm, Grover's search protocol, quantum error correction and the latest state-of-the-art experiments. No prior knowledge of quantum mechanics is required.
+
+CourseId: 24
+CourseCode: CP363
+CourseName: Database I
+CourseDesc: Introduction to database systems. Topics include data models, query languages, database design, recovery and concurrency, integrity and security.
+
+CourseId: 25
+CourseCode: CP364
+CourseName: Data Communications and Networks
+CourseDesc: Data communication fundamentals, with an emphasis on the physical layer, and telecommunication networks, with an emphasis on the architectures and protocols will be studied. Topics include transmission media, digital data transmission, architectures of telecommunication networks.
+
+CourseId: 26
+CourseCode: CP367
+CourseName: Introduction to System Programming
+CourseDesc: Contemporary ideas and techniques in system programming using the C language. Introduction to the Unix operating system and Unix commands. Directories and files, device control, signal handling, process intercommunication, shell programming in Unix. Using and implementing software tools: filters, pipelines, sorts, text patterns and others.
+
+CourseId: 27
+CourseCode: CP372
+CourseName: Computer Networks
+CourseDesc: Introduction to computer communication networks. The OSI reference model. Protocols for error and flow control. Medium access protocols. Routing and congestion control. Internet architecture and protocols. Unix network programming.
+
+CourseId: 28
+CourseCode: CP373
+CourseName: Ethics and Professional Practice in Computer Science
+CourseDesc: Introduction to ethics, computer reliability and safety, privacy, computer crime, intellectual property, impact of computers on work and society. Assessment includes written assignments and oral presentations.
+
+CourseId: 29
+CourseCode: CP386
+CourseName: Operating Systems
+CourseDesc: Topics include operating system services, file systems, CPU scheduling, memory management, virtual memory, disk scheduling, deadlocks, concurrent processes, protection and distributed systems.
+
+CourseId: 30
+CourseCode: CP395
+CourseName: Directed Studies
+CourseDesc: A detailed study of an aspect of computer science or computer electronics not available through the regular program. Irregular course.
+
+CourseId: 31
+CourseCode: CP400
+CourseName: Special Topics
+CourseDesc: A detailed examination of a field or topic of interest not covered by the regular program. Irregular Course
+
+CourseId: 32
+CourseCode: CP400Q
+CourseName: Android Programming
+CourseDesc: A detailed examination of a field or topic of interest not covered by the regular program.
+
+CourseId: 33
+CourseCode: CP400R
+CourseName: Data Mining & Enterprise Computing
+CourseDesc: A detailed examination of a field or topic of interest not covered by the regular program.
+
+CourseId: 34
+CourseCode: CP411
+CourseName: Computer Graphics
+CourseDesc: The principles, algorithms, and techniques of computer graphics. Topics include introduction to graphics hardware, output primitives, two- and three-dimensional geometric transformations, three-dimensional object representation and viewing, illumination models and surface-rendering methods. Graphics software tools will be introduced in this course.
+
+CourseId: 35
+CourseCode: CP412
+CourseName: Algorithm Design and Analysis II
+CourseDesc: A continuation of the study of computer algorithms. Amortized analysis, on-line and off-line algorithms, randomized algorithms, dynamic programming.
+
+CourseId: 36
+CourseCode: CP414
+CourseName: Foundations of Computing
+CourseDesc: Deterministic and nondeterministic finite automata (DFAs and NFAs), regular expressions, context-free grammars, relationship of push-down automata and context-free grammars, definintion of the classes P and NP, NP-completeness (Cook's Theorem), standard NP-complete problems, reduction techniques, Turing machines, the halting problem.
+
+CourseId: 37
+CourseCode: CP421
+CourseName: Data Mining
+CourseDesc: The course is aimed at an entry level study of information retrieval and data mining techniques. It is about how to find relevant information and subsequently extract meaningful patterns out of it. While the basic theories and mathematical models of information retrieval and data mining are covered, the course is primarily focused on practical algorithms of textual document indexing, relevance ranking, web usage mining, text analytics, as well as their performance evaluations. At the end of the course student are expected to understand the following: 1. The common algorithms and techniques for information retrieval (document indexing and retrieval, query processing, etc). 2. The quantitative evaluation methods for the IR systems and data mining techniques. 3. The popular probabilistic retrieval methods and ranking principles. 4. The techniques and algorithms existing in practical retrieval and data mining systems such as those in web search engines and recommender systems. 5. The challenges and existing techniques for the emerging topics of MapReduce, portfolio retrieval and online advertising.
+
+CourseId: 38
+CourseCode: CP422
+CourseName: Programming for Big Data
+CourseDesc: The explosion of social media and the computerization of every aspect of social and economic activity resulted in creation of large volumes of mostly unstructured data: web logs, videos, speech recordings, photographs, e-mails, Tweets, and similar data. The key objective of this course is to familiarize the students with key information technologies used in manipulating, storing, and analyzing big data. We look at the basic tools for statistical analysis, R and Python, and some key methods of machine learning. We review MapReduce techniques for parallel processing, Hadoop, an open source framework for running MapReduce on Internet scale problems and HDFS, Hadoop's Distributed File System. We teach Spark which emerged as the most important big data processing framework. We touch on tools that provide SQL-like access to unstructured data like Hive. We analyze so-called NoSQL storage solutions exemplified by Cassandra for their critical features: speed of reads and writes, and ability to scale to extreme volumes. We examine memory resident databases (VoltDB, SciDB) and graph databases (Ne4J). Students gain the ability to initiate and design highly scalable systems that can accept, store, and analyze large volumes of unstructured data in batch mode and/or real time. Most lectures are presented using Java examples. Some lectures use Python and R.
+
+CourseId: 39
+CourseCode: CP423
+CourseName: Text Retrieval and Search Engines
+CourseDesc: Recent years have seen a dramatic growth of natural language text data, including web pages, news articles, scientific literature, emails, enterprise documents, and social media such as blog articles, forum posts, product reviews, and tweets. Text data are unique in that they are usually generated directly by humans rather than a computer system or sensors, and are thus especially valuable for discovering knowledge about people’s opinions and preferences, in addition to many other kinds of knowledge that we encode in text. This course will cover search engine technologies, which play an important role in any data mining applications involving text data for two reasons. First, while the raw data may be large for any particular problem, it is often a relatively small subset of the data that are relevant, and a search engine is an essential tool for quickly discovering a small subset of relevant text data in a large text collection. Second, search engines are needed to help analysts interpret any patterns discovered in the data by allowing them to examine the relevant original text data to make sense of any discovered pattern. You will learn the basic concepts, principles, and the major techniques in text retrieval, which is the underlying science of search engines.
+
+CourseId: 40
+CourseCode: CP431
+CourseName: Parallel Programming
+CourseDesc: Parallel computers, or supercomputers or high-performance clusters are ubiquitous today in Science and Engineering. Parallel programming requires inventing new algorithms and programming techniques. This course will cover the fundamental paradigms of parallel programming, with an emphasis on problem solving and actual applications. The parallel programming concepts and algorithms will be illustrated via implementations in OpenMP and MPI (Message Passing Interface), as well as serial farming.
+
+CourseId: 41
+CourseCode: CP460
+CourseName: Applied Cryptography
+CourseDesc: Algorithms and issues in applied cryptography. Topics include history of cryptography, block ciphers, stream ciphers, public-key encryption, digital signatures, and key management. Also, discussions of current issues in information security.
+
+CourseId: 42
+CourseCode: CP461
+CourseName: Introduction to Computational Aspects of Bio-informatics
+CourseDesc: Introduction to the basic computational problems arising in molecular biology. Emphasis is on the development of efficient algorithms. Topics include sequence comparison, fragment assembly of DNA, physics and genetic mapping of DNA, genome rearrangements, molecular structure prediction. No background in biology is required.
+
+CourseId: 43
+CourseCode: CP463
+CourseName: Simulation
+CourseDesc: Discrete and continuous simulations, queuing theory.
+
+CourseId: 44
+CourseCode: CP464
+CourseName: Selected Topics in Computer Hardware
+CourseDesc: Topics may include computer classes and evolution, instruction set design, hardwired sequencer design, microprogramming, memory hierarchies, concurrency, multiple-processor systems, and fault-tolerant systems. Students will be required to design and build a computer, including the design of the instruction set and the control unit.
+
+CourseId: 45
+CourseCode: CP465
+CourseName: Database II
+CourseDesc: This course covers advanced database management system design principles and techniques. Possible topics include access methods, query processing and optimization, transaction processing, distributed databases, deductive databases, object-relational databases, data warehousing, data mining, Web and semistructured data, search engines, etc.
+
+CourseId: 46
+CourseCode: CP467
+CourseName: Image Processing & Pattern Recognition
+CourseDesc: Introduction to vision systems for image acquisition and display. Comprehensive coverage of image enhancement, segmentation, feature extraction and classification.
+
+CourseId: 47
+CourseCode: CP468
+CourseName: Artificial Intelligence
+CourseDesc: Examination of current concepts and techniques in artificial intelligence and machine learning. Topics include knowledge representation, automated reasoning, machine learning and knowledge-based systems. Extensive use of case studies and current applications.
+
+CourseId: 48
+CourseCode: CP469
+CourseName: iPhone Application Programming
+CourseDesc: Programming applications for the iPhone, iPad, and iPod platforms, using the Cocoa Touch framework on Mac OSX. Introduction to the programming language Objective-C. Interface development for mobile devices and dealing with different input modalities, web services, and memory management for mobile devices.
+
+CourseId: 49
+CourseCode: CP470
+CourseName: Android Programming
+CourseDesc: How to write applications for the Android mobile devices using the Android Development Tools. Developing software with the Model-View-Controller paradigm. Knowledge of Java is required. The course project will be the development of an Android app.
+
+CourseId: 50
+CourseCode: CP471
+CourseName: Introduction to Compiling
+CourseDesc: Principles and design techniques for compilers. Compiler organization, compiler writing tools, scanning, parsing, semantic analysis, run-time storage organization, memory management, code generation and optimization. Students implement a substantial portion of a compiler in a project.
+
+CourseId: 51
+CourseCode: CP472
+CourseName: Programming Languages
+CourseDesc: Overview of programming languages, virtual machines, history of programming languages, programming language semantics, programming language design, introduction to language translation, declarations and types, abstraction mechanism, functional programming, logic programming, object-oriented programming.
+
+CourseId: 52
+CourseCode: CP476
+CourseName: Internet Computing
+CourseDesc: The architecture of the Internet. Client-server programming, technologies of the web (URLs, HTML, HTTP, applets, etc.) Introduction to building web applications and server-side programming.
+
+CourseId: 53
+CourseCode: CP480
+CourseName: Wireless Communication & Networks
+CourseDesc: This course introduces fundamental concepts of wireless networks. Topics include wireless communication overview, physical layer, wireless concepts and protocols including TCP over wireless; cellular standards, WIFI WIMax, and Bluetooth standards; applications such as personal area networks and sensor networks; other issues such as mobile communication security.
+
+CourseId: 54
+CourseCode: CP493
+CourseName: Directed Research Project I
+CourseDesc: An in-depth investigation of a computer science subject under faculty supervision, including the submission of a final report. Irregular course.
+
+CourseId: 55
+CourseCode: CP494
+CourseName: Directed Research Project II
+CourseDesc: An in-depth investigation of a computer science subject under faculty supervision, including the submission of a formal report. Irregular course.
+
+CourseId: 56
+CourseCode: CP495
+CourseName: Directed Studies
+CourseDesc: A detailed study of an aspect of computer science or computer electronics not available through the regular program. Irregular course.
+
+CourseId: 57
+CourseCode: CP496
+CourseName: Interdisciplinary Design Project I
+CourseDesc: This course gives students experience working in a group setting to solve a substantial problem that may span several areas of Computer Science, Electronics, Physics or Photonics. Students will define the requirements of the project, develop a solution plan, produce a design, and present their work using written and oral reports. (Irregular course)
+
+CourseId: 58
+CourseCode: CP497
+CourseName: Interdisciplinary Design Project II
+CourseDesc: This course gives students experience working in a group setting to solve a substantial problem that may span several areas of Computer Science, Electronics, Physics or Photonics. Students will continue the project begun in the preceding term. They will implement their design and demonstrate their work using written, oral, and video reports. (Irregular course)
+
+CourseId: 59
+CourseCode: CP600
+CourseName: Practical Algorithm Design
+CourseDesc: The techniques of algorithm design form one of the core practical technologies of computer science. This course focuses on advanced techniques for designing and analysing algorithms, and explores their use in a variety of application areas. Topics include: sorting and search algorithms, graph traversal algorithms, combinatorial search, heuristics methods, and dynamic programming, intractable problems. Students learn the skill of recognizing computational complexities of computing problems and designing solutions for them.
+
+CourseId: 60
+CourseCode: CP601
+CourseName: Seminar in Technology Entrepreneurship
+CourseDesc: This seminar focuses on the fundamentals of technology entrepreneurship. It involves taking a technology idea and finding a high-potential commercial opportunity, gathering resources such as talent and capital, figuring out how to sell and market the idea, and managing rapid growth. It also involves bringing incorporating a new technology idea into an existing business. There will be guest lecturers from the industry.
+
+CourseId: 61
+CourseCode: CP610
+CourseName: Data Analysis
+CourseDesc: Data analysis is a burgeoning field that allows organizations to discover patterns in data to help explain current behaviours or predict future outcomes. In this course, students learn the theories, techniques and practices involved in modern data analysis in order to effectively collect, process, interpret and use data in decision making. The course utilizes case studies from fields such as finance and statistics to expose students to topics including data collection, storage, processing, representation, and reporting, and also further develop their decision-making skills using decision trees and artificial intelligence.
+
+CourseId: 62
+CourseCode: CP612
+CourseName: Data Management and Analysis
+CourseDesc: This course provides students with a broad overview of the concepts, techniques and tools of modern data management and analysis. It compares traditional relational databases with an alternative model (a NoSQL database), and explains how to choose the most appropriate means of storing and managing data, depending on the size and structure of a particular dataset and its intended use. Students are guided through the basics of using Hadoop with MapReduce and Spark. In data analysis, both theoretical concepts and algorithms in Association Mining, Classification, Clustering, etc., and a range of advanced applications, including Link Analysis, Recommender Systems, Computational Advertising, etc., are introduced.
+
+CourseId: 63
+CourseCode: CP614
+CourseName: Applied Cryptography
+CourseDesc: Algorithms and issues in applied cryptography. Topics include block ciphers, stream ciphers, public-key cryptography, AES, elliptic curve cryptosystems, blockchain, digital signatures, zero knowledge proofs. Also, current issues in information security such as privacy enhancing technologies and post quantum cryptography.
+
+CourseId: 64
+CourseCode: CP620
+CourseName: Data Mining Programming
+CourseDesc: Multiple organizations across multiple industries (e.g., finance, retail, manufacturing, communication) are mining and analyzing incredibly large sets of data in order to predict consumer behaviour and trends. In this course, students use the principles of data mining and practical knowledge to visualize and analyze data using data mining software such as Weka.
+
+CourseId: 65
+CourseCode: CP621
+CourseName: Data Mining Mobile Devices
+CourseDesc: With today’s consumers spending more time on their mobiles than on their PC, new methods of empirical stochastic modeling have emerged that can provide marketers with detailed information about the products, content, and services their customers’ desire. This course builds on Data Analysis by focusing explicitly on the unique data offered by mobile devices. Students learn about the types of data that can be mined from mobile devices including analyzing Wi-Fi and GPS data from websites and mobile applications. Other topics include: modeling mined data via artificial intelligence software and monetizing mobile devices’ desires and preferences.
+
+CourseId: 66
+CourseCode: CP630
+CourseName: Enterprise Computing
+CourseDesc: Enterprise computing offers integrated solutions to organizations that need help managing a variety of problems including software development, resource management and data analytics. This course extends traditional Computer Science education through a practical skills-based application focused on enterprise computing which integrates IT management and application development. Students examine the principles, techniques and practices in modern enterprise computing with a focus on backend business logic computing and the technical foundation of data analysis. Students will learn to manage all aspects of enterprise computing solutions including security, user experience, optimization, and distributed databases. Practical knowledge is further developed through lab work, case studies and guest-lectures of IT managers.
+
+CourseId: 67
+CourseCode: CP631
+CourseName: Parallel Programming
+CourseDesc: Parallel computers, or supercomputers or high-performance clusters are ubiquitous today in science and engineering. Parallel programming requires inventing new algorithms and programming techniques. This course covers the paradigms of parallel programming, with an emphasis on problem solving and actual applications. The parallel programming concepts and algorithms are illustrated via implementations in OpenMP and MPI (Message Passing Interface), as well as serial farming.
+
+CourseId: 68
+CourseCode: CP640
+CourseName: Machine Learning
+CourseDesc: Machine learning is the science of getting computers to act without being explicitly programmed. In the past decade, machine learning has given us self-driving cars, practical speech recognition, effective web search, and a vastly improved understanding of the human genome. This course focuses on machine learning, data mining, and statistical pattern recognition. Topics include supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks) and unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). Students work with variety of learning algorithms and evaluate which are most likely to be successful.
+
+CourseId: 69
+CourseCode: CP650
+CourseName: User Interface Design and Implementation
+CourseDesc: The user interface, also called UI or user experience, is the “front end” of a website, computer application, or software program that people interact with. Competitive advantage can be won or lost depending on the design of the user interface. To be effective, modern software application designs must support not only the required functionality but also fully engage users. Throughout this course, students apply proven user interface design practices to gather requirements, reduce user input errors, and provide intuitive navigation pathways through complex applications to ensure usability.
+
+CourseId: 70
+CourseCode: CP669
+CourseName: iPhone Application Programming
+CourseDesc: Apple iPhones are one of the most popular smartphones on the market today, with thousands of applications downloaded every day. This course provides students with the knowledge to develop applications for iPhones, iPads, and iPods, using the Cocoa Touch framework on iOS and introducing students to the programming language Swift. More specifically, students learn how to develop interfaces for mobile devices and the challenges faced when developing applications that use different input modalities. Other topics include web services and memory management for mobile devices.
+
+CourseId: 71
+CourseCode: CP670
+CourseName: Android Application Programming
+CourseDesc: As the worldwide smartphone market continues to grow, so does the demand for mobile applications. This course provides students with the skills for creating and deploying applications for mobile devices using Android, the most widely used operating system. With an emphasis on the Model-View-Controller paradigm this course provides students with the foundational knowledge that underlies many popular programming languages. The course cumulates with the development of an original Android application. Knowledge of Java is required.
+
+CourseId: 72
+CourseCode: CP680
+CourseName: Capstone Project
+CourseDesc: This course is available only to students in the Co-Operative Education Option and will be completed in the term following their co-op terms. Students will complete a major project that integrates their academic and work experience.
+
+CourseId: 73
+CourseCode: CP681
+CourseName: Directed Studies
+CourseDesc: Individual study of a special topic not offered in existing courses at an advanced level under the supervision of a faculty member or other supervisor approved by the Department. The topics and evaluation scheme must be approved by the Department.
+
+CourseId: 74
+CourseCode: CP682
+CourseName: Special Topics
+CourseDesc: This course features a detailed examination of a special topic not covered by the Department's regular course offerings.
+
+CourseId: 75
+CourseCode: CP683
+CourseName: Graduate Project
+CourseDesc: This course is designed for students who take the course-based option in the Master of Applied Computing program. The instructor selects topics for study. The course material is presented through lectures, and possibly guest-speaker seminars. Students, with approval from the instructor, select a topic for an in-depth study. Students have the option to ask a full-time faculty member to supervise their project, in consultation with the instructor. Project topics might include a new contribution to a scientific area, or computer code to implement solution to a computing problem. The students' performance is evaluated based on course attendance, the written report, and oral presentations.
+
+CourseId: 76
+CourseCode: CP685
+CourseName: Cyber Attack and Defense
+CourseDesc: This course focuses on both the principles and practice in computer security. It provides an introduction to fundamental principles of computer systems and network security. It also covers the best practices of computer systems and network security protection and defense. The roadmap for the course includes seven main sections, including security objectives, vulnerabilities, attacks and exploitation, wireless security, web application security, defense and countermeasures, and incident handling and forensic investigation. Specifically, it first covers security objectives such as confidentiality, data integrity, authentication, authorization, access control, availability, and non-repudiation. Also, it covers the fundamental theories of vulnerabilities in software, computer system, network protocols, cryptographic techniques and social engineering. It then covers various security protection and defense mechanisms, including major security protocols and standards, firewalls, intrusion detection, wireless security, and web application security. It also discusses the latest cutting-edge insidious attack vectors, and the patterns of denial-of-service attacks. This course also presents the understanding tools needed to defend against attackers maintaining access and covering their tracks. This course examines and reviews various types of hacking tools as well as ways to harden the system or application against these attacks.
+
+CourseId: 77
+CourseCode: CP699
+CourseName: Master's Thesis
+CourseDesc: Students will complete a thesis based on original research and defend it before an examining committee.
