@@ -85,9 +85,9 @@ This application supports two primary user groups:
 ---
 
 ## 🛠️ Tech Stack (TBD)
-- **Frontend:**  
-- **Backend:**  
-- **Database:**  
+- **Frontend:**  React, HTML, CSS
+- **Backend:**  Node.Js (Express)
+- **Database:**  SQLLite (queries written in MS SQL to start but were then converted)
 - **Hosting/Deployment:**  
 
 ---
@@ -111,4 +111,9 @@ This application supports two primary user groups:
 - Advanced analytics on course trends
 - Professor-specific insights
 - Integration with official academic systems (if feasible)
+
+---
+
+## Team Contributions
+
 
