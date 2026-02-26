@@ -98,6 +98,24 @@ This application supports two primary user groups:
 
 ## ⚙️ Setup & Installation
 > Instructions will be added as the project is implemented.
+> Setup instructions to run locally:
+Prerequisites: Node.js, Git
+Clone repo:
+git clone 
+https://github.com/TA800/cp476_codespace.git
+cd cp476_codespace
+
+
+Backend:
+cd backend
+npm install
+node server.js
+
+
+Frontend:
+cd frontend
+npm install
+npm start
 
 ---
 
@@ -115,5 +133,9 @@ This application supports two primary user groups:
 ---
 
 ## Team Contributions
+Toby: Created all of the front-end designs. He made sure the webpages looked appealing and professionally designed using various HTML and CSS stylings. He also ensured that the primary workflows outlined in our wireframes were properly implemented.  
+Taherali: Set up and ensured the backend is working properly. Integrated the backend connection with the database that Indu created. 
+Indu: Created the database schema and translated it to a relationship diagram. Developed the SQL create statement scripts with the appropriate primary keys, foreign keys, data types and constraints. Update and organize Kanban, wiki entries after meetings and readme. 
+
 
 
