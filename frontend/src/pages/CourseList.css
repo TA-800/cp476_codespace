@@ -1,0 +1,71 @@
+/*Course list styling*/
+
+/*container for main page list*/
+.course-list-page h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/*container for search and filters*/
+.filters {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+/*search bar styling*/
+.search-input {
+  flex: 1;
+  min-width: 200px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/*search bar hover*/
+.search-input:focus {
+  outline: none;
+  border-color: #4b2e83;
+}
+
+/*dropdown styling*/
+.filter-select {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+/*dropdown hover*/
+.filter-select:focus {
+  outline: none;
+  border-color: #4b2e83;
+}
+
+/*grid layout for course cards*/
+.course-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+/*no search results message*/
+.no-results {
+  text-align: center;
+  color: #888;
+  padding: 40px 0;
+  font-size: 1rem;
+}
+
+/*mobile accessibility*/
+@media (max-width: 600px) {
+  .filters {
+    flex-direction: column;
+  }
+  .search-input {
+    width: 100%;
+  }
+}
