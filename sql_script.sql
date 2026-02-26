@@ -10,7 +10,7 @@ ATTACH DATABASE 'project.db' AS 'project';
 
 -- In SQLite3 PRIMARY KEYs can be null, disallow that by adding NOT NULL
 
-CREATE TABLE Users (
+CREATE TABLE project.Users (
     -- AUTOINCREMENT is default behaviour, ref: https://sqlite.org/autoinc.html
     UserID INTEGER  NOT NULL PRIMARY KEY,
     UserName TEXT NOT NULL,
@@ -18,14 +18,14 @@ CREATE TABLE Users (
     Email TEXT NOT NULL
 ) STRICT;
 
-CREATE TABLE Courses (
+CREATE TABLE project.Courses (
     CourseID INTEGER  NOT NULL PRIMARY KEY,
     CourseName TEXT NOT NULL,
     CourseCode TEXT NOT NULL,
     CourseDesc TEXT
 ) STRICT;
 
-CREATE TABLE Reviews (
+CREATE TABLE project.Reviews (
     ReviewID INTEGER  NOT NULL PRIMARY KEY,
     UserID INTEGER NOT NULL,
     CourseID INTEGER NOT NULL,
@@ -43,19 +43,19 @@ CREATE TABLE Reviews (
     FOREIGN KEY (CourseID) REFERENCES Courses(CourseID)
 ) STRICT;
 
-CREATE TABLE EvalTypes (
+CREATE TABLE project.EvalTypes (
     EvalTypeID INTEGER NOT NULL PRIMARY KEY,
     EvalTitle TEXT NOT NULL,
     KeywordDetails TEXT
 ) STRICT;
 
-CREATE TABLE Keywords (
+CREATE TABLE project.Keywords (
     KeywordID INTEGER  NOT NULL PRIMARY KEY,
     KeywordTitle TEXT NOT NULL,
     KeywordDetails TEXT
 ) STRICT;
 
-CREATE TABLE ReviewEvalTypes (
+CREATE TABLE project.ReviewEvalTypes (
     ReviewID INTEGER NOT NULL,
     EvalTypeID INTEGER NOT NULL,
 
@@ -64,7 +64,7 @@ CREATE TABLE ReviewEvalTypes (
     FOREIGN KEY (ReviewID) REFERENCES Reviews(ReviewID)
 ) STRICT;
 
-CREATE TABLE ReviewKeywords (
+CREATE TABLE project.ReviewKeywords (
     ReviewID INTEGER NOT NULL,
     KeywordID INTEGER NOT NULL,
 
