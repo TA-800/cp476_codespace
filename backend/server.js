@@ -28,15 +28,26 @@ app.get("/courses", (req, resp) => {
     return resp.json(data);
 });
 
-// Get specific course data using its ID
+// Get specific course data using its ID (courseDesc, reviews)
 app.get("/courses/:id", (req, resp) => {
     const id = Number.parseInt(req.params.id);
-    const data = db.prepare("SELECT * FROM Courses WHERE CourseID = ?;").get(id);
+    const data = db.prepare("SELECT * FROM Courses WHERE CourseId = ?").get(id);
     if (data === undefined) {
         // Throw an error following HTTP conventions like status codes
         return resp.status(404).json({ message: `Course with ID ${id} not found.` });
     }
-    return resp.json(data);
+    const reviews = db
+        .prepare(
+            `SELECT UserName, Rating, Comment, Workload, GroupWork, IsCompleted, GradeAchieved, DatePublished, DateEdited FROM Reviews
+            JOIN Users on Users.UserID = Reviews.UserID
+            WHERE CourseID = ?
+            ;`,
+        )
+        .all(id);
+    return resp.json({
+        data,
+        reviews,
+    });
 });
 
 // Start the server

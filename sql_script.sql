@@ -541,3 +541,16 @@ INSERT INTO Courses (CourseCode, CourseName, CourseDesc) VALUES (
     'Masters Thesis',
     'Students will complete a thesis based on original research and defend it before an examining committee.'
 );
+
+-- Reviews
+INSERT INTO Reviews (UserID, CourseID, Rating, Comment, Workload, GroupWork, IsCompleted, GradeAchieved, DateEdited) VALUES (
+    1,
+    21,
+    9,
+    'Good course where you gain insight into methods to approach problems differently with the goal of parallelizing them.',
+    7,
+    TRUE,
+    TRUE,
+    11.1,
+    date()
+);
