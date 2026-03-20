@@ -25,7 +25,7 @@ app.get("/courses", (req, resp) => {
     // Clamp page between 0 and 7 (because we only have 77 courses, if we're returning 10 per page then 77 // 10 = 7)
     page = page > 7 ? 7 : page < 0 ? 0 : page;
     const data = db.prepare("SELECT CourseID, CourseName, CourseCode FROM Courses LIMIT 10 OFFSET ?;").all(page * 10);
-    return resp.json(data);
+    return resp.status(200).json(data);
 });
 
 // Get specific course data using its ID (courseDesc, reviews)
@@ -45,7 +45,7 @@ app.get("/courses/:id", (req, resp) => {
         )
         // all => Return all rows retrieved by query, or an empty array if no rows match
         .all(id);
-    return resp.json({
+    return resp.status(200).json({
         data,
         reviews,
     });
@@ -53,7 +53,7 @@ app.get("/courses/:id", (req, resp) => {
 
 app.get("/evaltypes", (req, resp) => {
     const data = db.prepare("SELECT * FROM EvalTypes;").all();
-    return resp.json(data);
+    return resp.status(200).json(data);
 });
 
 app.post("/reviews", (req, resp) => {
@@ -68,7 +68,7 @@ app.post("/reviews", (req, resp) => {
         return resp.status(400).json({ message: err.message });
     }
     // https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status#successful_responses => 201 CREATED
-    return resp.status(201);
+    return resp.status(201).send();
 });
 
 // Sign in user if username and password match, return UserID
@@ -97,7 +97,7 @@ app.post("/register", (req, resp) => {
     } catch (err) {
         return resp.status(400).json({ message: err.message });
     }
-    return resp.status(201);
+    return resp.status(201).send();
 });
 
 // Start the server
