@@ -13,7 +13,7 @@ ATTACH DATABASE 'project.db' AS 'project';
 CREATE TABLE project.Users (
     -- AUTOINCREMENT is default behaviour, ref: https://sqlite.org/autoinc.html
     UserID INTEGER  NOT NULL PRIMARY KEY,
-    UserName TEXT NOT NULL,
+    UserName TEXT UNIQUE NOT NULL,
     Password TEXT NOT NULL,
     Email TEXT NOT NULL
 ) STRICT;

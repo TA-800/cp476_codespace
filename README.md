@@ -106,7 +106,7 @@ https://github.com/TA800/cp476_codespace.git
 cd cp476_codespace
 
 
-Backend:
+Backend (make sure to delete "project.db" if re-launching or re-running database):
 - sqlite3
 - .read sql_script.sql (execute SQL)
 - .exit
