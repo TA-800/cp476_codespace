@@ -136,9 +136,11 @@ Frontend:
 ---
 
 ## Team Contributions
-Toby: Created all of the front-end designs. He made sure the webpages looked appealing and professionally designed using various HTML and CSS stylings. He also ensured that the primary workflows outlined in our wireframes were properly implemented.  
-Taher: Set up and ensured the backend is working properly. Integrated the backend connection with the database that Indu created. 
-Indu: Created the database schema and translated it to a relationship diagram. Developed the SQL create statement scripts with the appropriate primary keys, foreign keys, data types and constraints. Update and organize Kanban, wiki entries after meetings and readme. 
+Toby: Created all of the front-end designs. He made sure the webpages looked appealing and professionally designed using various HTML and CSS stylings. He also ensured that the primary workflows outlined in our wireframes were properly implemented. Ensured front end operations are consistent with the server.  
+
+Taher: Set up and ensured the backend is working properly. Integrated the backend connection with the database that Indu created. Updated the server side scripting with the APIs. 
+
+Indu: Created the database schema and translated it to a relationship diagram. Developed the SQL create statement scripts with the appropriate primary keys, foreign keys, data types and constraints. Update and organize Kanban, wiki entries after meetings and readme. Creating testing report and presentation artifact.
 
 
 
