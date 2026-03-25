@@ -1,0 +1,154 @@
+/*Course details styling*/
+
+/*links to home page*/
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #4b2e83;
+  font-weight: bold;
+}
+
+/*hover styling*/
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/*header*/
+.course-header {
+  margin-bottom: 25px;
+}
+.course-header h1 {
+  margin-bottom: 10px;
+}
+
+/*course description styling*/
+.course-description {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/*container for course stats*/
+.overall-ratings {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.overall-ratings h2 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+/*alignment grid for ratings*/
+.ratings-grid {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.rating-item {
+  display: flex;
+  flex-direction: column;
+}
+
+/*rating styling*/
+.rating-label {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 4px;
+}
+
+.rating-value {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #4b2e83;
+}
+
+.eval-section {
+  margin-top: 15px;
+}
+
+/*tag styling*/
+.eval-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.group-work-info {
+  margin-top: 10px;
+  font-size: 0.95rem;
+}
+
+.reviews-section {
+  margin-top: 10px;
+}
+
+.reviews-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.reviews-header h2 {
+  font-size: 1.2rem;
+}
+
+/*filter styling*/
+.reviews-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.no-reviews {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  color: #888;
+}
+
+/*button for adding review*/
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #4b2e83;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #3a2266;
+}
+
+/*mobile accessibility*/
+@media (max-width: 600px) {
+  .ratings-grid {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .reviews-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
