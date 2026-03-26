@@ -120,6 +120,7 @@ Frontend:
 - npm install
 - npm start
 
+NOTE: Please be aware input in terminal when running SQLite may appear hidden. However the input is indeed being recognized and will execute when pressing ENTER.
 ---
 
 ## 🧪 Usage
