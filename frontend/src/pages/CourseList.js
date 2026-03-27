@@ -5,15 +5,27 @@ import "./CourseList.css";
 
 function CourseList(){
   var [courses, setCourses] = useState([]);
-  var [page, setPage] = useState(0);
   var [searchTerm, setSearchTerm] = useState("");
 
-  /*fetch courses when page changes*/
-  useEffect(function() {
-    fetch("http://localhost:8080/courses?page=" + page)
-      .then(function(res) { return res.json(); })
-      .then(function(data) { setCourses(data); });
-  }, [page]);
+  /*fetch all courses on page load*/
+  useEffect(function(){
+    var allCourses = [];
+    var fetches = [];
+    for (var i = 0; i <= 7; i++){
+      fetches.push(
+        fetch("http://localhost:8080/courses?page=" + i)
+          .then(function(res) { return res.json(); })
+      );
+    }
+    Promise.all(fetches).then(function(results){
+      for (var j = 0; j < results.length; j++) {
+        for (var k = 0; k < results[j].length; k++){
+          allCourses.push(results[j][k]);
+        }
+      }
+      setCourses(allCourses);
+    });
+  }, []);
 
   /*client side search filter*/
   var filteredCourses = [];
@@ -48,13 +60,6 @@ function CourseList(){
         <p className="no-results">No courses match your search.</p>
       )}
 
-      <div style={{display:"flex", gap:"10px", marginTop:"20px", justifyContent:"center"}}>
-        <button className="btn btn-primary" disabled={page === 0}
-          onClick={function() { setPage(page - 1); }}>Previous</button>
-        <span style={{padding:"10px"}}>Page {page + 1}</span>
-        <button className="btn btn-primary" disabled={courses.length < 10}
-          onClick={function() { setPage(page + 1); }}>Next</button>
-      </div>
     </div>
   );
 }
