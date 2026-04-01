@@ -48,13 +48,6 @@ CREATE TABLE project.EvalTypes (
     EvalTitle TEXT NOT NULL,
     KeywordDetails TEXT
 ) STRICT;
-INSERT INTO EvalTypes (EvalTitle) VALUES ('Assignments');
-INSERT INTO EvalTypes (EvalTitle) VALUES ('Quizzes');
-INSERT INTO EvalTypes (EvalTitle) VALUES ('Midterm');
-INSERT INTO EvalTypes (EvalTitle) VALUES ('Final');
-INSERT INTO EvalTypes (EvalTitle) VALUES ('Labs');
-INSERT INTO EvalTypes (EvalTitle) VALUES ('Readings');
-INSERT INTO EvalTypes (EvalTitle) VALUES ('Participation');
 
 CREATE TABLE project.Keywords (
     KeywordID INTEGER  NOT NULL PRIMARY KEY,

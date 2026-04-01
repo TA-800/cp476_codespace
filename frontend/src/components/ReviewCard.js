@@ -1,38 +1,30 @@
-/*Review card - displays one review with delete button and backend data*/
+/*Review card components*/
 import React from "react";
+
+/*import helper functions*/
+import {
+  getUserName,
+  getEvalTypesForReview,
+  getKeywordsForReview,
+  formatDate,
+} from "../data/mockData";
 import "./ReviewCard.css";
 
-/*format date helper*/
-function formatDate(dateString){
-  if (!dateString) return "";
-  var months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
-  var d = new Date(dateString);
-  return months[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
-}
-
-function ReviewCard({ review, onDelete }){
-
-  /*send delete request to backend*/
-  function handleDelete() {
-    if (!window.confirm("Are you sure you want to delete this review?")) return;
-
-    fetch("http://localhost:8080/reviews/" + review.ReviewID,{
-      method: "DELETE"
-    })
-    .then(function(res) { return res.json(); })
-    .then(function() {
-      if (onDelete) onDelete();
-    })
-    .catch(function(err) { console.error("Delete failed:", err); });
-  }
+/*fetch data logic*/
+function ReviewCard({ review }) {
+  const username = getUserName(review.UserID);
+  const evalTypesList = getEvalTypesForReview(review.ReviewID);
+  const keywordsList = getKeywordsForReview(review.ReviewID);
 
   return (
+    /*Review card header, difficulty ratings, attaching tags, text body*/
+    
     <div className="review-card">
       <div className="review-card-header">
-        <span className="review-user">{review.UserName}</span>
+        <span className="review-user">{username}</span>
         <span className="review-date">
           {formatDate(review.DatePublished)}
-          {review.DateEdited && " (edited)"}
+          {review.DateEditted && " (edited)"}
         </span>
       </div>
 
@@ -49,18 +41,15 @@ function ReviewCard({ review, onDelete }){
       </div>
 
       <div className="review-tags">
-        {review.evalTypes && review.evalTypes.map(function(type, i) {
-          return <span key={"eval-" + i} className="tag eval-tag">{type}</span>;
-        })}
-        {review.keywords && review.keywords.map(function(kw, i) {
-          return <span key={"kw-" + i} className="tag keyword-tag">{kw}</span>;
-        })}
+        {evalTypesList.map((type, i) => (
+          <span key={"eval-" + i} className="tag eval-tag">{type}</span>
+        ))}
+        {keywordsList.map((kw, i) => (
+          <span key={"kw-" + i} className="tag keyword-tag">{kw}</span>
+        ))}
       </div>
 
       <p className="review-comment">{review.Comment}</p>
-
-      {/*delete button*/}
-      <button className="btn-delete" onClick={handleDelete}>Delete Review</button>
     </div>
   );
 }

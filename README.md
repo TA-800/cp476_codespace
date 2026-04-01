@@ -114,23 +114,11 @@ Backend (make sure to delete "project.db" if re-launching or re-running database
 - npm install
 - node server.js
 
-You should see "Server.js listening on port 8080." Keep this terminal open.
 
-
-Frontend (open a second terminal):
+Frontend:
 - cd frontend
 - npm install
 - npm start
-
-Browser opens at http://localhost:3000.
-
-
-### Using the app
-- Browse courses on the home page, use Next/Previous to paginate through all 77 courses
-- Click a course to see its details, description, and student reviews
-- Click "+ Add Review" to submit a review (stored permanently in the database)
-- Search courses by name or code using the search bar
-- Reviews persist across page refreshes because they are stored in the SQLite database
 
 NOTE: Please be aware input in terminal when running SQLite may appear hidden. However the input is indeed being recognized and will execute when pressing ENTER.
 ---
