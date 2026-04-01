@@ -132,6 +132,7 @@ Browser opens at http://localhost:3000.
 - Search courses by name or code using the search bar
 - Reviews persist across page refreshes because they are stored in the SQLite database
 
+NOTE: Please be aware input in terminal when running SQLite may appear hidden. However the input is indeed being recognized and will execute when pressing ENTER.
 ---
 
 ## 🧪 Usage
